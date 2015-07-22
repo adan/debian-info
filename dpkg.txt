@@ -129,6 +129,7 @@ ii  krb5-locales                   1.12.1+dfsg-19              all          Inte
 ii  laptop-detect                  0.13.7                      amd64        attempt to detect a laptop
 ii  less                           458-3                       amd64        pager program similar to more
 ii  libacl1:amd64                  2.2.52-2                    amd64        Access control list shared library
+ii  libaio1:amd64                  0.3.110-1                   amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-c3-perl           0.09-1                      all          Perl module for merging hierarchies using the C3 algorithm
 ii  libalgorithm-diff-perl         1.19.02-3                   all          module to find differences between files
 ii  libalgorithm-diff-xs-perl      0.04-3+b1                   amd64        module to find differences between files (XS accelerated)
@@ -184,6 +185,8 @@ ii  libdata-optlist-perl           0.109-1                     all          modu
 ii  libdata-section-perl           0.200006-1                  all          module to read chunks of data from a module's DATA section
 ii  libdatrie1:amd64               0.2.8-1                     amd64        Double-array trie library
 ii  libdb5.3:amd64                 5.3.28-9                    amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdbd-mysql-perl              4.028-2+b1                  amd64        Perl5 database interface to the MySQL database
+ii  libdbi-perl                    1.631-3+b1                  amd64        Perl Database Interface (DBI)
 ii  libdbus-1-3:amd64              1.8.18-0+deb8u1             amd64        simple interprocess messaging system (library)
 ii  libdebconfclient0:amd64        0.192                       amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64       2:1.02.90-2.2               amd64        Linux Kernel Device Mapper userspace library
@@ -236,6 +239,7 @@ ii  libhtml-form-perl              6.03-1                      all          modu
 ii  libhtml-format-perl            2.11-1                      all          module for transforming HTML into various formats
 ii  libhtml-parser-perl            3.71-1+b3                   amd64        collection of modules that parse HTML text documents
 ii  libhtml-tagset-perl            3.20-2                      all          Data tables pertaining to HTML
+ii  libhtml-template-perl          2.95-1                      all          module for using HTML templates with Perl
 ii  libhtml-tree-perl              5.03-1                      all          Perl module to represent and create HTML syntax trees
 ii  libhttp-cookies-perl           6.01-1                      all          HTTP cookie jars
 ii  libhttp-daemon-perl            6.01-1                      all          simple http server class
@@ -296,6 +300,8 @@ ii  libmount1:amd64                2.25.2-6                    amd64        devi
 ii  libmpc3:amd64                  1.0.2-1                     amd64        multiple precision complex floating-point library
 ii  libmpfr4:amd64                 3.1.2-2                     amd64        multiple precision floating-point computation
 ii  libmro-compat-perl             0.12-1                      all          mro::* interface compatibility for Perls < 5.9.5
+ii  libmysqlclient-dev             5.5.44-0+deb8u1             amd64        MySQL database development files
+ii  libmysqlclient18:amd64         5.5.44-0+deb8u1             amd64        MySQL database client library
 ii  libncurses5:amd64              5.9+20140913-1+b1           amd64        shared libraries for terminal handling
 ii  libncurses5-dev:amd64          5.9+20140913-1+b1           amd64        developer's libraries for ncurses
 ii  libncursesw5:amd64             5.9+20140913-1+b1           amd64        shared libraries for terminal handling (wide character support)
@@ -368,6 +374,7 @@ ii  libsub-name-perl               0.12-1                      amd64        modu
 ii  libswitch-perl                 2.17-2                      all          switch statement for Perl
 ii  libsystemd0:amd64              215-17+deb8u1               amd64        systemd utility library
 ii  libtasn1-6:amd64               4.2-3+deb8u1                amd64        Manage ASN.1 structures (runtime)
+ii  libterm-readkey-perl           2.32-1+b1                   amd64        perl module for simple terminal control
 ii  libterm-ui-perl                0.42-1                      all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl         0.04-7+b3                   amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl             1.7-5+b2                    amd64        converts between character sets in Perl
@@ -451,6 +458,12 @@ ii  mlocate                        0.26-1                      amd64        quic
 ii  mount                          2.25.2-6                    amd64        Tools for mounting and manipulating filesystems
 ii  multiarch-support              2.19-18                     amd64        Transitional package to ensure multiarch compatibility
 ii  mutt                           1.5.23-3                    amd64        text-based mailreader supporting MIME, GPG, PGP and threading
+ii  mysql-client                   5.5.44-0+deb8u1             all          MySQL database client (metapackage depending on the latest version)
+ii  mysql-client-5.5               5.5.44-0+deb8u1             amd64        MySQL database client binaries
+ii  mysql-common                   5.5.44-0+deb8u1             all          MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-server                   5.5.44-0+deb8u1             all          MySQL database server (metapackage depending on the latest version)
+ii  mysql-server-5.5               5.5.44-0+deb8u1             amd64        MySQL database server binaries and system database setup
+ii  mysql-server-core-5.5          5.5.44-0+deb8u1             amd64        MySQL database server binaries
 ii  nano                           2.2.6-3                     amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                   5.9+20140913-1              all          basic terminal type definitions
 ii  ncurses-bin                    5.9+20140913-1+b1           amd64        terminal-related programs and man pages
