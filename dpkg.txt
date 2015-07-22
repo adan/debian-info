@@ -120,6 +120,7 @@ ii  isc-dhcp-client                4.3.1-6                     amd64        DHCP
 ii  isc-dhcp-common                4.3.1-6                     amd64        common files used by all of the isc-dhcp packages
 ii  iso-codes                      3.57-1                      all          ISO language, territory, currency, script codes and their translations
 ii  ispell                         3.3.02-6                    amd64        International Ispell (an interactive spelling corrector)
+ii  javascript-common              11                          all          Base support for JavaScript library packages
 ii  kbd                            1.15.5-2                    amd64        Linux console font and keytable utilities
 ii  keyboard-configuration         1.123                       all          system-wide keyboard preferences
 ii  klibc-utils                    2.0.4-2                     amd64        small utilities built with klibc for early boot
@@ -261,6 +262,7 @@ ii  libjasper1:amd64               1.900.1-debian1-2.4         amd64        JasP
 ii  libjbig0:amd64                 2.1-3.1                     amd64        JBIGkit libraries
 ii  libjemalloc1                   3.6.0-3                     amd64        general-purpose scalable concurrent malloc(3) implementation
 ii  libjpeg62-turbo:amd64          1:1.3.1-12                  amd64        libjpeg-turbo JPEG runtime library
+ii  libjs-jquery                   1.7.2+dfsg-3.2              all          JavaScript library for dynamic web applications
 ii  libjson-c2:amd64               0.11-4                      amd64        JSON manipulation library - shared library
 ii  libk5crypto3:amd64             1.12.1+dfsg-19              amd64        MIT Kerberos runtime libraries - Crypto Library
 ii  libkeyutils1:amd64             1.5.9-5+b1                  amd64        Linux Key Management Utilities (library)
@@ -339,6 +341,7 @@ ii  libreadline6:amd64             6.3-8+b3                    amd64        GNU 
 ii  libreadline6-dev:amd64         6.3-8+b3                    amd64        GNU readline and history libraries, development files
 ii  libregexp-common-perl          2013031301-1                all          module with common regular expressions
 ii  librtmp1:amd64                 2.4+20150115.gita107cef-1   amd64        toolkit for RTMP streams (shared library)
+ii  libruby2.1:amd64               2.1.5-2+deb8u1              amd64        Libraries necessary to run Ruby 2.1
 ii  libsasl2-2:amd64               2.1.26.dfsg1-13             amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules:amd64         2.1.26.dfsg1-13             amd64        Cyrus SASL - pluggable authentication modules
 ii  libsasl2-modules-db:amd64      2.1.26.dfsg1-13             amd64        Cyrus SASL - pluggable authentication modules (DB)
@@ -503,6 +506,9 @@ ii  reportbug                      6.6.3                       all          repo
 ii  rpcbind                        0.2.1-6                     amd64        converts RPC program numbers into universal addresses
 ii  rsync                          3.1.1-3                     amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                        8.4.2-1                     amd64        reliable system and kernel logging daemon
+ii  ruby                           1:2.1.5+deb8u1              all          Interpreter of object-oriented scripting language Ruby (default version)
+ii  ruby2.1                        2.1.5-2+deb8u1              amd64        Interpreter of object-oriented scripting language Ruby
+ii  rubygems-integration           1.8                         all          integration of Debian Ruby packages with Rubygems
 ii  sed                            4.2.2-4+b1                  amd64        The GNU sed stream editor
 ii  sensible-utils                 0.0.9                       all          Utilities for sensible alternative selection
 ii  sgml-base                      1.26+nmu4                   all          SGML infrastructure and SGML catalog file support
