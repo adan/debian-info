@@ -214,6 +214,7 @@ ii  libgc1c2:amd64                 1:7.2d-6.4                  amd64        cons
 ii  libgcc-4.9-dev:amd64           4.9.2-10                    amd64        GCC support library (development files)
 ii  libgcc1:amd64                  1:4.9.2-10                  amd64        GCC support library
 ii  libgcrypt20:amd64              1.6.3-2                     amd64        LGPL Crypto library - runtime library
+ii  libgd3:amd64                   2.1.0-5                     amd64        GD Graphics Library
 ii  libgdbm-dev                    1.8.3-13.1                  amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                 1.8.3-13.1                  amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64       2.31.1-2+b1                 amd64        GDK Pixbuf library
@@ -402,6 +403,7 @@ ii  libustr-1.0-1:amd64            1.0.4-3+b2                  amd64        Micr
 ii  libuuid-perl                   0.05-1+b1                   amd64        Perl extension for using UUID interfaces as defined in e2fsprogs
 ii  libuuid1:amd64                 2.25.2-6                    amd64        Universally Unique ID library
 ii  libv8-3.14.5                   3.14.5.8-8.1                amd64        V8 JavaScript engine - runtime library
+ii  libvpx1:amd64                  1.3.0-3                     amd64        VP8 and VP9 video codec (shared library)
 ii  libwebp5:amd64                 0.4.1-1.2+b2                amd64        Lossy compression of digital photographic images.
 ii  libwebpdemux1:amd64            0.4.1-1.2+b2                amd64        Lossy compression of digital photographic images.
 ii  libwebpmux1:amd64              0.4.1-1.2+b2                amd64        Lossy compression of digital photographic images.
@@ -432,6 +434,7 @@ ii  libxml-sax-perl                0.99+dfsg-2                 all          Perl
 ii  libxml2:amd64                  2.9.1+dfsg1-5               amd64        GNOME XML library
 ii  libxml2-dev:amd64              2.9.1+dfsg1-5               amd64        Development files for the GNOME XML library
 ii  libxmuu1:amd64                 2:1.1.2-1                   amd64        X11 miscellaneous micro-utility library
+ii  libxpm4:amd64                  1:3.5.11-1+b1               amd64        X11 pixmap library
 ii  libxrandr2:amd64               2:1.4.2-1+b1                amd64        X11 RandR extension library
 ii  libxrender1:amd64              1:0.9.8-1+b1                amd64        X Rendering Extension client library
 ii  libxslt1-dev:amd64             1.1.28-2+b2                 amd64        XSLT 1.0 processing library - development kit
@@ -475,6 +478,9 @@ ii  netbase                        5.3                         all          Basi
 ii  netcat-traditional             1.10-41                     amd64        TCP/IP swiss army knife
 ii  nfacct                         1.0.1-1.1                   amd64        netfilter accounting object tool
 ii  nfs-common                     1:1.2.8-9                   amd64        NFS support files common to client and server
+ii  nginx                          1.6.2-5                     all          small, powerful, scalable web/proxy server
+ii  nginx-common                   1.6.2-5                     all          small, powerful, scalable web/proxy server - common files
+ii  nginx-full                     1.6.2-5                     amd64        nginx web/proxy server (standard version)
 ii  nodejs                         0.10.29~dfsg-2              amd64        evented I/O for V8 javascript
 ii  openssh-client                 1:6.7p1-5                   amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                 1:6.7p1-5                   amd64        secure shell (SSH) server, for secure access from remote machines
